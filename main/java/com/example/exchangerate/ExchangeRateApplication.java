@@ -12,9 +12,6 @@ public class ExchangeRateApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ExchangeRateApplication.class, args);
-        Date date = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-        System.out.println(dateFormat.format(date));
     }
 
 }
